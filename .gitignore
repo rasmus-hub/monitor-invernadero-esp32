@@ -1,0 +1,56 @@
+# ================= Qt / CMake =================
+build/
+build-*/
+cmake-build-*/
+debug/
+release/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Configuración local de Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+.qtcreator/
+
+# Archivos generados por Qt
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+
+# ================= Binarios =================
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# ================= Arduino / ESP32 =================
+*.elf
+*.bin
+*.hex
+*.map
+
+# ================= Editor / Sistema =================
+*.autosave
+*.swp
+*.bak
+Thumbs.db
+.DS_Store
+
+# ================= Datos locales =================
+datos_locales/
+exportaciones/
+*.log
+
+# ================= Credenciales =================
+.env
+secrets.h
